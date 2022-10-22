@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FFFFFF;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+.navbar {
+    /* background-color: aquamarine; */
+    position: static;
+    width: 1280px;
+    height: 48px;
+    margin:40px auto;
+    top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.wazwez{
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 28px;
+    font-style: normal;
+    line-height: 100%;
+    /* background-color: aqua; */
+    color: #3B3949;
+    position: absolute;
+    left: 82px;
+    align-items: center;
+    text-align: left;
+
+}
+.logo{
+    color: #FF5F26;
+
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(Poppins-Regular.ttf);
+
+}
+
+.navbar .ellipse{
+    position: absolute;
+}
+.navbar .notifikasi {
+    width: 17px;
+    height: 20px;
+    top: 15px;
+    left: 3.5px;
+    position: static;
+}
+.navbar .fotoprofil {
+}
+.navbar .namaprofil{
+    /* width: ; 164px
+    height: 26px; */
+}
+.navbar .segitiga{
+}
+.toDoList {
+    /* border: 2px solid black; */
+    /* background-color: aqua; */
+    box-shadow: 0px 0px 30px rgba(19,7,52,0.08);
+    position: static;
+    width: 800px;
+    height: 672px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin :auto auto;
+    left: 50%;
+
+}
+.popup{
+    /* background-color: aquamarine; */
+    width: 300px;
+    height: 144px;
+    border: 1px solid #CCCED2;
+    background-color: white;
+    border-radius: 8px;
+    position: absolute;
+    top: 318px;
+
+    display: none;
+}
+.newPopup{
+    width: 300px;
+    height: 144px;
+    border: 1px solid #CCCED2;
+    background-color: white;
+    border-radius: 8px;
+    position: absolute;
+    top: 318px;
+}
+.kotak{
+    /* background-color: #FF5F26; */
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 16px;
+    position: static;
+    padding-top: 18px;
+    padding-left: 24px;
+    padding-right: 20px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto 30px;
+}
+
+.toDoList .content {
+    /* border: 2px solid black; */
+    position: static;
+    width: 720px;
+    height: 608px;
+    
+}
+.mytask{
+    /* background-color: green; */
+    font-family: poppins;
+    margin: 0;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 100%;
+   color: #FF5F26;
+   letter-spacing: 1px;
+
+}
+.dolist {
+    /* background-color: aquamarine; */
+    display: flex;
+    font-family: poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 100%;
+    color: #293038;
+    align-items: center;
+    float: inline-end;
+    margin: 0;
+}
+.CTA {
+    /* background-color: aqua; */
+    position: relative;
+    left: 425px;
+    cursor: pointer;
+}
+.listtugas {
+    font-family: poppins;
+    color: #7A7F83;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+}
+.filter{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 500;
+}
+.dropdown{
+    position: relative;
+    left: 528px;
+    cursor: pointer;
+}
+.createTugas{
+    background-color: #FF5F26;
+}
+.deskripsi{
+    background-color: aqua;
+    display: grid;
+
+}
+.isitask{
+    /* background-color: #FF5F26; */
+    position: static;
+}
+.product{
+    /* background-color: aquamarine; */
+    position: static;
+    display: grid;
+    grid-template-columns: 42px 300px auto 15px;
+    align-items: center;
+    color: #293038;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: poppins;
+}
+.product-{
+    margin: 5px;
+    display: flex;
+    text-align: center;
+}
+.product2 {
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 14px;
+    color: #7A7F83;
+    text-indent: 45px;
+
+}
+
+
+
+.finish {
+    height: 72px;
+    width: 720px;
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 0;
+    font-family: poppins;
+    color: #7A7F83;
+    /* background-color: green; */
+
+}
+.finish .line{
+    /* background-color: aqua; */
+    position: absolute;
+    bottom: 50px;
+}
+
+.hidden{
+    display: none;
+}
+
+
